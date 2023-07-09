@@ -1,0 +1,11 @@
+* {
+    background:     #eff1f5;
+    background-alt: #ccd0da;
+    foreground:     #4c4f69;
+    red:            #d20f39;
+    blue:           #1e66f5;
+    green:          #40a02b;
+    yellow:         #df8e1d;
+    purple:         #8839ef;
+    lavender:       #7287fd;
+}

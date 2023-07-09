@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Reddit
+Icon=reddit
+Exec=google-chrome-stable https://reddit.com

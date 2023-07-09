@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Discord (Browser)
+Icon=discord
+Exec=google-chrome-stable https://discord.com/channels/@me
+
