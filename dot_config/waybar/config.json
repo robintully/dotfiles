@@ -1,0 +1,119 @@
+{
+  "output": ["DP-2", "eDP-1"],
+  "modules-left": ["custom/nix", "clock"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+    "tray",
+    "cpu",
+    "memory",
+    "backlight",
+    "pulseaudio",
+    "bluetooth",
+    "network",
+    "battery"
+  ],
+  "custom/nix": {
+    "format": "   ",
+    "tooltip": false,
+    "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "all-outputs": false
+    // Uncomment and customize the icons if needed
+    // "format-icons": {
+    //   "1": "一",
+    //   "2": "二",
+    //   "3": "三",
+    //   "4": "四",
+    //   "5": "五",
+    //   "6": "六",
+    //   "7": "七",
+    //   "8": "八",
+    //   "9": "九",
+    //   "10": "十"
+    // }
+  },
+  // "custom/cava-internal": {
+  //   "exec": "sleep 1s && cava-internal",
+  //   "tooltip": false
+  // },
+  "clock": {
+    "format": "<span color='#ebdbb2'> </span>{:%H:%M}",
+    "tooltip": true,
+    "tooltip-format": "{:%Y-%m-%d %a}"
+    // Uncomment if needed
+    // "on-click-middle": "exec default_wallpaper",
+    // "on-click-right": "exec wallpaper_random"
+  },
+  "cpu": {
+    "format": "<span color='#ebdbb2'>  </span>{usage}%"
+  },
+  "memory": {
+    "interval": 1,
+    "format": "<span color='#ebdbb2'>  </span>{used:0.1f}G/{total:0.1f}G"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "<span color='#ebdbb2'>{icon}  </span> {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+  "pulseaudio": {
+    "format": "<span color='#ebdbb2'>{icon}  </span> {volume}%",
+    "format-muted": "",
+    "tooltip": false,
+    "format-icons": {
+      "headphone": "",
+      "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+  },
+  "bluetooth": {
+    "format": "<span color='#ebdbb2'></span>",
+    "format-disabled": "<span color='#ebdbb2'></span>",
+    "format-connected": "<span color='#ebdbb2'></span> {num_connections}",
+    "tooltip-format": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}   {device_address}",
+    "on-click": "blueberry"
+  },
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "<span color='#ebdbb2'> </span>{essid}",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "format-disconnected": "<span color='#ebdbb2'>󰖪 </span>No Network",
+    "tooltip": false,
+    "on-click": "nm-applet"
+  },
+  "battery": {
+    "format": "<span color='#ebdbb2'>{icon}</span> {capacity}%",
+    "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+    "format-charging": "<span color='#ebdbb2'></span> {capacity}%",
+    "tooltip": false
+  },
+  "tray": {
+    "show-passive-items": true,
+    "icon-size": 15
+  },
+  "sidebar": {
+    "output": "DP-1",
+    "modules-center": ["hyprland/workspaces"],
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "all-outputs": false
+      // Uncomment and customize the icons if needed
+      // "format-icons": {
+      //   "1": "一",
+      //   "2": "二",
+      //   "3": "三",
+      //   "4": "四",
+      //   "5": "五",
+      //   "6": "六",
+      //   "7": "七",
+      //   "8": "八",
+      //   "9": "九",
+      //   "10": "十"
+      // }
+    }
+  }
+}
