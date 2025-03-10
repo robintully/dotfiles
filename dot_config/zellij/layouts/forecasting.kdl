@@ -1,0 +1,26 @@
+layout {    
+    tab name="Forecasting" {
+        pane split_direction="horizontal" {
+            pane name="Common" {
+                command "fish"
+                cwd "~/Development/forecasting/common"
+                args "--login" "-c" "cd ~/Development/forecasting/common && uv sync && source .venv/bin/activate.fish && set fish_greeting '' && exec fish"
+            }
+            pane name="ETL" {
+                command "fish"
+                cwd "~/Development/forecasting/etl"
+                args "--login" "-c" "cd ~/Development/forecasting/etl && uv sync && source .venv/bin/activate.fish && set fish_greeting '' && exec fish"
+            }
+            pane name="App Server" {
+                command "fish"
+                cwd "~/Development/forecasting/app"
+                args "--login" "-c" "cd ~/Development/forecasting/app && uv sync && source .venv/bin/activate.fish && python src/serve.py"
+            }
+            pane name="PocketBase" {
+                command "fish"
+                cwd "~/Development/forecasting"
+                args "--login" "-c" "cd ~/Development/forecasting && pocketbase serve && set fish_greeting '' && exec fish"
+            }
+        }
+    }
+}
