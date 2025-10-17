@@ -1,0 +1,8 @@
+# Only source omarchy and mise in Ghostty terminal
+if [[ "$TERM_PROGRAM" == "$TERMINAL" ]]; then
+  source ~/.local/share/omarchy/default/bash/rc
+  eval "$(mise activate bash)"
+fi
+
+# Environment setup
+. "$HOME/.local/share/../bin/env"
