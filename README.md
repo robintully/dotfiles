@@ -27,6 +27,11 @@ yay -Syu \
   bruno-bin \
   vivaldi
 ```
+#### Configure UV for Python
+```bash
+mise local uv latest
+mise settings experimental=true
+```
 
 ### Quick Start
 
