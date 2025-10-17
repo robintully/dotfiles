@@ -29,8 +29,7 @@ yay -Syu \
 ```
 #### Configure UV for Python
 ```bash
-mise local uv latest
-mise settings experimental=true
+mise use uv && mise settings experimental=true
 ```
 
 ### Quick Start
