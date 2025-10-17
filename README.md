@@ -16,7 +16,7 @@ Before applying the dotfiles, install the required base packages:
 ```bash
 yay -Syu \
   lunatask \
-  bitwarden-bin \
+#   bitwarden-bin \
   celluloid-git \
   slack-desktop-wayland \
   todoist-wrapper-bin \
