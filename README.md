@@ -10,24 +10,6 @@ Personal dotfiles managed with [chezmoi](https://www.chezmoi.io/).
 - `chezmoi` installed on your system
 - Git configured with access to this repository
 
-### Install Base Packages
-
-Before applying the dotfiles, install the required base packages:
-
-```bash
-yay -Syu \
-  lunatask \
-#   bitwarden-bin \
-  celluloid-git \
-  slack-desktop-wayland \
-  todoist-wrapper-bin \
-  ferdium-bin \
-  gearlever \
-  zed \
-  chezmoi \
-  bruno-bin \
-  vivaldi
-```
 #### Configure UV for Python
 ```bash
 mise use uv && mise settings experimental=true
