@@ -1,0 +1,19 @@
+#!/bin/bash
+{{ if (and (eq .chezmoi.os "linux") (stat "/etc/arch-release")) -}}
+
+set -e
+
+echo "Installing Arch Linux packages with yay..."
+
+# Check if yay is installed
+if ! command -v yay &> /dev/null; then
+    echo "Error: yay is not installed. Please install yay first."
+    exit 1
+fi
+
+# Install all packages in a single command (requires authentication only once)
+yay -S --needed --noconfirm {{ range .packages.arch }}{{ . | quote }} {{ end }}
+
+echo "All packages installed successfully!"
+
+{{ end -}}

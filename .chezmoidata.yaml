@@ -1,0 +1,16 @@
+packages:
+  arch:
+    - lunatask
+    - celluloid-git
+    - slack-desktop-wayland
+    - todoist-wrapper-bin
+    - ferdium-bin
+    - gearlever
+    - chezmoi
+    - bruno-bin
+    - vivaldi
+    - vesktop-bin
+    - bitwarden
+    - rbw
+    - claude-code
+    - twist
