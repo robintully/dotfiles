@@ -1,6 +1,7 @@
 # Dotfiles
 
 Personal dotfiles managed with [chezmoi](https://www.chezmoi.io/).
+- [Backrest Setup](https://github.com/garethgeorge/backrest/blob/main/README.md)
 
 ## Installation on Omarchy
 
