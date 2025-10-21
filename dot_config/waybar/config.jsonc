@@ -15,10 +15,11 @@
     "battery"
   ],
   "hyprland/workspaces": {
+    "show-special": true,
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "default": "",
+      // "default": "",
       "1": "1",
       "2": "2",
       "3": "3",
@@ -28,14 +29,14 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "active": "󱓻"
+      "twist": "C",
+      "vesktop": "D",
+      "grayjay": "Y"
     },
     "persistent-workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
+      "DP-1": [1, 2, 3, 4, 5],
+      "DP-2": [6, 7, 8, 9, 10],
+      "*": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     }
   },
   "custom/omarchy": {
