@@ -16,4 +16,11 @@ yay -S --needed --noconfirm {{ range .packages.arch }}{{ . | quote }} {{ end }}
 
 echo "All packages installed successfully!"
 
+# Enable backrest service if backrest was installed
+if command -v backrest &> /dev/null; then
+    echo "Enabling backrest systemd service..."
+    sudo systemctl enable --now backrest@$USER.service
+    echo "Backrest service enabled and started!"
+fi
+
 {{ end -}}
