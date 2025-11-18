@@ -26,8 +26,23 @@
   min-width: 9px;
 }
 
+#workspaces button {
+  opacity: 0.4;
+}
+
 #workspaces button.empty {
-  opacity: 0.5;
+  opacity: 0.2;
+}
+
+#workspaces button.active {
+  color: @foreground;
+  opacity: 1;
+  font-weight: bold;
+}
+
+#workspaces button.urgent {
+  background-color: #a55555;
+  animation: blink 1s linear infinite;
 }
 
 #cpu,
