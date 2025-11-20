@@ -1,0 +1,81 @@
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg="=== SpecStory Starting ==="
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg=Version version=0.15.0
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg="Command line" args="specstory sync --no-cloud-sync --log"
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg="Current working directory" cwd=/home/robin/.local/share/chezmoi
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg="========================"
+time=2025-11-17T18:46:06.050-08:00 level=INFO msg="Running sync command"
+time=2025-11-17T18:46:06.051-08:00 level=INFO msg="Project identity saved" path=/home/robin/.local/share/chezmoi/.specstory/.project.json identity="{WorkspaceID:a4fb-81fd-9d61-42d5 WorkspaceIDAt:2025-11-18T02:46:06Z GitID:143a-f3ea-20c5-5a1f GitIDAt:2025-11-18T02:46:06Z ProjectName:dotfiles}"
+time=2025-11-17T18:46:06.051-08:00 level=INFO msg="ParseProjectSessions: Starting JSONL parsing"
+time=2025-11-17T18:46:06.051-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/030e070c-6585-4a21-a1f0-079d3990487b.jsonl
+time=2025-11-17T18:46:06.059-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/5f7629c1-1ebc-4c55-b280-0d0a9f596642.jsonl
+time=2025-11-17T18:46:06.059-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/91f1c1cf-08d6-4fce-827f-775f630ebdc5.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-30d393e0.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-34d8ed1a.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-4ce963dd.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-6447dad2.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-67df0d24.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-69df720a.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-6da022ab.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-9bc4f68e.jsonl
+time=2025-11-17T18:46:06.060-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-b2d2bab7.jsonl
+time=2025-11-17T18:46:06.061-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-b8f100ed.jsonl
+time=2025-11-17T18:46:06.061-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-bfec693e.jsonl
+time=2025-11-17T18:46:06.061-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/b479879c-c1da-4bdc-9e49-b3be3747058c.jsonl
+time=2025-11-17T18:46:06.061-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/b886ed17-2196-4c75-81b5-c6a8d18b3120.jsonl
+time=2025-11-17T18:46:06.063-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/c95ce96f-59e2-47f4-ba40-c2bf27ade376.jsonl
+time=2025-11-17T18:46:06.064-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/eb104606-be96-4e84-8d29-576de7ef0bf2.jsonl
+time=2025-11-17T18:46:06.064-08:00 level=INFO msg="ParseProjectSessions: File scanning completed" duration="13.4 milliseconds" records=445
+time=2025-11-17T18:46:06.070-08:00 level=INFO msg="ParseProjectSessions: Completed parsing" sessions=6 duration="18.6 milliseconds"
+time=2025-11-17T18:46:06.082-08:00 level=INFO msg="Successfully wrote file" sessionId=b886ed17-2196-4c75-81b5-c6a8d18b3120 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-07-49Z-can-you-think-of.md
+time=2025-11-17T18:46:06.082-08:00 level=INFO msg="Successfully wrote file" sessionId=91f1c1cf-08d6-4fce-827f-775f630ebdc5 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-33-51Z-what-happened-to-my.md
+time=2025-11-17T18:46:06.082-08:00 level=INFO msg="Successfully wrote file" sessionId=eb104606-be96-4e84-8d29-576de7ef0bf2 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-37-00Z-what-happened-to-my.md
+time=2025-11-17T18:46:06.082-08:00 level=INFO msg="Successfully wrote file" sessionId=c95ce96f-59e2-47f4-ba40-c2bf27ade376 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-07_00-58-12Z-and-the-equivalent-of.md
+time=2025-11-17T18:46:06.083-08:00 level=INFO msg="Successfully wrote file" sessionId=030e070c-6585-4a21-a1f0-079d3990487b path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_01-40-34Z-this-is-an-omarchy.md
+time=2025-11-17T18:46:06.084-08:00 level=INFO msg="=== SpecStory Exiting ===" code=0 status="normal termination"
+time=2025-11-17T18:46:16.512-08:00 level=INFO msg="Provider registry initialized" count=3 providers="[claude codex cursor]"
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="=== SpecStory Starting ==="
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg=Version version=0.15.0
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="Command line" args="specstory sync --log"
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="Current working directory" cwd=/home/robin/.local/share/chezmoi
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="========================"
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="Running sync command"
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="Checking authentication" path=/home/robin/.specstory/cli/auth.json
+time=2025-11-17T18:46:16.633-08:00 level=INFO msg="Authentication successful (access token valid)"
+time=2025-11-17T18:47:48.637-08:00 level=ERROR msg="Failed to fetch bulk session sizes, will fall back to HEAD requests" projectId=143a-f3ea-20c5-5a1f error="GET request failed after 3 attempts: Get \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/sizes\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:47:48.637-08:00 level=INFO msg="ParseProjectSessions: Starting JSONL parsing"
+time=2025-11-17T18:47:48.637-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/030e070c-6585-4a21-a1f0-079d3990487b.jsonl
+time=2025-11-17T18:47:48.646-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/5f7629c1-1ebc-4c55-b280-0d0a9f596642.jsonl
+time=2025-11-17T18:47:48.646-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/91f1c1cf-08d6-4fce-827f-775f630ebdc5.jsonl
+time=2025-11-17T18:47:48.647-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-30d393e0.jsonl
+time=2025-11-17T18:47:48.647-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-34d8ed1a.jsonl
+time=2025-11-17T18:47:48.647-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-4ce963dd.jsonl
+time=2025-11-17T18:47:48.647-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-6447dad2.jsonl
+time=2025-11-17T18:47:48.648-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-67df0d24.jsonl
+time=2025-11-17T18:47:48.648-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-69df720a.jsonl
+time=2025-11-17T18:47:48.648-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-6da022ab.jsonl
+time=2025-11-17T18:47:48.648-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-9bc4f68e.jsonl
+time=2025-11-17T18:47:48.648-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-b2d2bab7.jsonl
+time=2025-11-17T18:47:48.649-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-b8f100ed.jsonl
+time=2025-11-17T18:47:48.649-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/agent-bfec693e.jsonl
+time=2025-11-17T18:47:48.649-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/b479879c-c1da-4bdc-9e49-b3be3747058c.jsonl
+time=2025-11-17T18:47:48.649-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/b886ed17-2196-4c75-81b5-c6a8d18b3120.jsonl
+time=2025-11-17T18:47:48.651-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/c95ce96f-59e2-47f4-ba40-c2bf27ade376.jsonl
+time=2025-11-17T18:47:48.651-08:00 level=INFO msg="Parsing session file" file=/home/robin/.claude/projects/-home-robin--local-share-chezmoi/eb104606-be96-4e84-8d29-576de7ef0bf2.jsonl
+time=2025-11-17T18:47:48.652-08:00 level=INFO msg="ParseProjectSessions: File scanning completed" duration="14.9 milliseconds" records=445
+time=2025-11-17T18:47:48.660-08:00 level=INFO msg="ParseProjectSessions: Completed parsing" sessions=6 duration="23.6 milliseconds"
+time=2025-11-17T18:47:48.675-08:00 level=INFO msg="Markdown file already exists with same content, skipping write" sessionId=030e070c-6585-4a21-a1f0-079d3990487b path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_01-40-34Z-this-is-an-omarchy.md
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Markdown file already exists with same content, skipping write" sessionId=b886ed17-2196-4c75-81b5-c6a8d18b3120 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-07-49Z-can-you-think-of.md
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Cloud sync initiated" sessionId=030e070c-6585-4a21-a1f0-079d3990487b mdPath=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_01-40-34Z-this-is-an-omarchy.md agentName="Claude Code" timestamp=2025-11-18T02:47:48Z
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Cloud sync initiated" sessionId=b886ed17-2196-4c75-81b5-c6a8d18b3120 mdPath=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-07-49Z-can-you-think-of.md agentName="Claude Code" timestamp=2025-11-18T02:47:48Z
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Markdown file already exists with same content, skipping write" sessionId=91f1c1cf-08d6-4fce-827f-775f630ebdc5 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-33-51Z-what-happened-to-my.md
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Markdown file already exists with same content, skipping write" sessionId=eb104606-be96-4e84-8d29-576de7ef0bf2 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-37-00Z-what-happened-to-my.md
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Cloud sync initiated" sessionId=91f1c1cf-08d6-4fce-827f-775f630ebdc5 mdPath=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-33-51Z-what-happened-to-my.md agentName="Claude Code" timestamp=2025-11-18T02:47:48Z
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Markdown file already exists with same content, skipping write" sessionId=c95ce96f-59e2-47f4-ba40-c2bf27ade376 path=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-07_00-58-12Z-and-the-equivalent-of.md
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Cloud sync initiated" sessionId=eb104606-be96-4e84-8d29-576de7ef0bf2 mdPath=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-18_02-37-00Z-what-happened-to-my.md agentName="Claude Code" timestamp=2025-11-18T02:47:48Z
+time=2025-11-17T18:47:48.676-08:00 level=INFO msg="Cloud sync initiated" sessionId=c95ce96f-59e2-47f4-ba40-c2bf27ade376 mdPath=/home/robin/.local/share/chezmoi/.specstory/history/2025-11-07_00-58-12Z-and-the-equivalent-of.md agentName="Claude Code" timestamp=2025-11-18T02:47:48Z
+time=2025-11-17T18:48:18.909-08:00 level=ERROR msg="Cloud sync API error" sessionId=b886ed17-2196-4c75-81b5-c6a8d18b3120 error="Put \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/b886ed17-2196-4c75-81b5-c6a8d18b3120\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:48:18.914-08:00 level=ERROR msg="Cloud sync API error" sessionId=030e070c-6585-4a21-a1f0-079d3990487b error="Put \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/030e070c-6585-4a21-a1f0-079d3990487b\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:48:19.073-08:00 level=ERROR msg="Cloud sync API error" sessionId=eb104606-be96-4e84-8d29-576de7ef0bf2 error="Put \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/eb104606-be96-4e84-8d29-576de7ef0bf2\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:48:19.073-08:00 level=ERROR msg="Cloud sync API error" sessionId=91f1c1cf-08d6-4fce-827f-775f630ebdc5 error="Put \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/91f1c1cf-08d6-4fce-827f-775f630ebdc5\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:48:19.078-08:00 level=ERROR msg="Cloud sync API error" sessionId=c95ce96f-59e2-47f4-ba40-c2bf27ade376 error="Put \"https://cloud.specstory.com/api/v1/projects/143a-f3ea-20c5-5a1f/sessions/c95ce96f-59e2-47f4-ba40-c2bf27ade376\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-11-17T18:48:19.078-08:00 level=INFO msg="=== SpecStory Exiting ===" code=0 status="normal termination"

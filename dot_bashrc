@@ -14,3 +14,6 @@ fi
 #
 # Make an alias for invoking commands you use constantly
 # alias p='python'
+
+# Initialize starship prompt
+eval "$(starship init bash)"
