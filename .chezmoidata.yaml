@@ -3,7 +3,7 @@ packages:
     - lunatask
     - celluloid-git
     - slack-desktop-wayland
-    - todoist-wrapper-bin
+    - todoist-appimage
     - ferdium-bin
     - gearlever
     - chezmoi
