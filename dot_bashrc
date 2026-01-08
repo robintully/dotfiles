@@ -3,6 +3,7 @@
 
 # Only source omarchy and mise in Ghostty terminal
 if [[ "$TERM_PROGRAM" == "$TERMINAL" ]]; then
+  eval "$(direnv hook bash)"
   source ~/.local/share/omarchy/default/bash/rc
   eval "$(mise activate bash)"
 fi
@@ -17,3 +18,7 @@ fi
 
 # Initialize starship prompt
 eval "$(starship init bash)"
+export PATH=~/.npm-global/bin:$PATH
+
+# Enable experimental MCP-CLI mode for Claude Code (reduces token usage)
+export ENABLE_EXPERIMENTAL_MCP_CLI=true

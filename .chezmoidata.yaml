@@ -17,3 +17,4 @@ packages:
     - grayjay-bin
     - backrest
     - nano
+    - direnv
