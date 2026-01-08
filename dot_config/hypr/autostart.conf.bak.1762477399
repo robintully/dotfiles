@@ -1,0 +1,24 @@
+# Extra autostart processes
+# exec-once = uwsm app -- my-service
+
+
+# Launch editor on workspace 2
+exec-once = [workspace 2 silent] omarchy-launch-editor
+
+# Launch browser on workspace 3
+exec-once = [workspace 3 silent] omarchy-launch-browser
+
+# Launch apps on workspaces
+exec-once = [workspace 8 silent] uwsm app -- env APPDIR=/opt/twist /opt/twist/AppRun --no-sandbox
+exec-once = [workspace 9 silent] uwsm app -- vesktop
+exec-once = [workspace 10 silent] uwsm app -- grayjay
+
+# Grayjay is XWayland/Electron with empty initial properties, so we need delayed commands
+# to move it to workspace 10 and apply fullscreen after it fully launches
+exec-once = [workspace 10 silent] sleep 6 && hyprctl dispatch movetoworkspacesilent 10,title:^Grayjay$ && hyprctl --batch "dispatch focuswindow title:^Grayjay$; dispatch fullscreen 1;" && hyprctl --batch "dispatch workspace 6; dispatch workspace 1"
+
+# # Focus workspaces after all apps are launched
+exec-once = sleep 3 && hyprctl --batch "dispatch workspace 6; dispatch workspace 1"
+
+# Launch terminal on workspace 1
+exec-once = [workspace 1] uwsm app -- $TERMINAL
