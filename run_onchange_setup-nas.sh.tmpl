@@ -1,0 +1,27 @@
+#!/bin/bash
+{{- $hostname := (rbwFields "smb_mounts").hostname -}}
+{{- $shares := (rbwFields "smb_mounts").shares | splitList "," -}}
+
+set -e
+
+echo "Setting up autofs for NAS mounts..."
+
+yay -S --needed --noconfirm autofs cifs-utils
+
+sudo mkdir -p /mnt/nas
+
+OPTS="-fstype=cifs,guest,uid=$(id -u),gid=$(id -g),iocharset=utf8,vers=3.0"
+
+sudo tee /etc/autofs/auto.nas > /dev/null << EOF
+{{ range $shares -}}
+{{ . | trim }}    $OPTS    ://{{ $hostname }}/{{ . | trim }}
+{{ end -}}
+EOF
+
+if ! grep -q "/mnt/nas" /etc/autofs/auto.master 2>/dev/null; then
+    echo "/mnt/nas    /etc/autofs/auto.nas    --timeout=300" | sudo tee -a /etc/autofs/auto.master
+fi
+
+sudo systemctl enable --now autofs
+
+echo "Done! Shares available at /mnt/nas/"
