@@ -2,7 +2,7 @@
 [[ $- != *i* ]] && return
 
 # Only source omarchy and mise in Ghostty terminal
-if [[ "$TERM_PROGRAM" == "$TERMINAL" ]]; then
+if [[ "$TERMINAL" == "xdg-terminal-exec" ]]; then
   eval "$(direnv hook bash)"
   source ~/.local/share/omarchy/default/bash/rc
   eval "$(mise activate bash)"
