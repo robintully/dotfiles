@@ -17,4 +17,4 @@ packages:
     - direnv
     - yazi
     - superproductivity-bin
-    - immich
+    - jellyfin-desktop
