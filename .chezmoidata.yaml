@@ -15,5 +15,6 @@ packages:
     - backrest
     - nano
     - direnv
+    - yazi
     - superproductivity-bin
     - immich
