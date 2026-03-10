@@ -1,5 +1,5 @@
 #!/bin/bash
-{{- $hostname := output "rbw" "get" "--field" "hostname" "smb_mounts" | trim -}}
+{{ $hostname := output "rbw" "get" "--field" "hostname" "smb_mounts" | trim -}}
 {{- $shares := output "rbw" "get" "--field" "shares" "smb_mounts" | trim | splitList "," -}}
 
 set -e
