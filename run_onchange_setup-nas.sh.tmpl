@@ -1,6 +1,6 @@
 #!/bin/bash
-{{- $hostname := (rbwFields "smb_mounts").hostname -}}
-{{- $shares := (rbwFields "smb_mounts").shares | splitList "," -}}
+{{- $hostname := output "rbw" "get" "--field" "hostname" "smb_mounts" | trim -}}
+{{- $shares := output "rbw" "get" "--field" "shares" "smb_mounts" | trim | splitList "," -}}
 
 set -e
 
