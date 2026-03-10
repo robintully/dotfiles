@@ -1,10 +1,7 @@
 packages:
   arch:
-    - lunatask
     - celluloid-git
     - slack-desktop-wayland
-    - todoist-appimage
-    - ferdium-bin
     - gearlever
     - chezmoi
     - bruno-bin
@@ -18,3 +15,5 @@ packages:
     - backrest
     - nano
     - direnv
+    - superproductivity-bin
+    - immich
